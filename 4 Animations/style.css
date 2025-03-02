@@ -1,0 +1,13 @@
+body {
+    background-color: lightskyblue;
+    min-height: 100vh;
+    overflow: hidden;
+    display: grid;
+}
+
+canvas {
+    /* declareer de widht en height in het html bestand */
+    background-color: deepskyblue;
+    margin: auto;
+    border-radius: 3rem;
+}

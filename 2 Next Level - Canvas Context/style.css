@@ -1,0 +1,15 @@
+/* Did you know that in CSS there are 16.777.216 possible colors available? */
+/* Another fun fact is that you can use your calculator for color purpeses... just click the hamburger menu and select </> programmer */
+
+body {
+    background-color: lightskyblue;
+    min-height: 100vh;
+    overflow: hidden;
+    display: grid;
+}
+
+canvas {
+    background-color: deepskyblue;
+    margin: auto;
+    /* border-radius: 3rem; */
+}

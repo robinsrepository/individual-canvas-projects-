@@ -1,0 +1,39 @@
+body {
+    background-image: url("pexels-felixmittermeier-956981.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#piano  {
+    position: absolute;
+    z-index: 100;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 98vmin;
+    height: 30vmin;
+    border: 10px solid #12003b;
+}
+
+.whiteKey {
+    background: #fff;
+    border-right: 1px solid #777;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 0 0 5px 5px;
+    height: 100%;
+    width: 7vmin;
+    float: left;
+}
+
+.blackKey {
+    background: #000;
+    border-radius: 0 0 5px 5px;
+    height: 60%;
+    width: 3.5vmin;
+    transform: translate(5.5vmin);
+}
